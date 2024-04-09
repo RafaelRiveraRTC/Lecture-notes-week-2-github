@@ -1,4 +1,9 @@
-﻿using System.Text;
+﻿//Rafael Rivera Harrison
+
+// 04/08/2024
+
+//Lecture notes week 2 github
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;

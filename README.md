@@ -1,5 +1,9 @@
 # Lecture notes week 2 github
 
+
+
+
+
 -When you commit you save your changes locally
 
 -when you push it gets sent to the cloud
