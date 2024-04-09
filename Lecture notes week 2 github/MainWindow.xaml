@@ -1,0 +1,73 @@
+﻿<Window x:Class="Lecture_notes_week_2_github.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture_notes_week_2_github"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="1060">
+    <!--layout tag-->
+    <Canvas>
+        <Button x:Name="btnPopupmessage"
+                Content="Pop up message"
+                Canvas.Left="260"
+                Canvas.Top="78"
+                RenderTransformOrigin="0.5,0.5"
+                Height="45"
+                Width="370"
+                Click="btnPopupmessage_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform Angle="-0.212" />
+                    <TranslateTransform />
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+
+
+
+
+        <Label Content="Label"
+               Canvas.Left="281"
+               Canvas.Top="124" />
+
+        <TextBox x:Name="txtFirstName"
+                 Canvas.Left="281"
+                 TextWrapping="Wrap"
+                 Text="Rafael"
+                 Canvas.Top="180"
+                 Width="120" />
+        <TextBox x:Name="TextNumber_1"
+                 Canvas.Left="241"
+                 TextWrapping="Wrap"
+                 Text="TextBox"
+                 Canvas.Top="259"
+                 Width="120"
+                 TextChanged="TextBox_TextChanged" />
+        <TextBox x:Name="TextNumber_2"
+                 Canvas.Left="470"
+                 TextWrapping="Wrap"
+                 Text="TextBox"
+                 Canvas.Top="259"
+                 Width="120"
+                 TextChanged="TextBox_TextChanged"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top" />
+        <Button x:Name="buttonAddNumbers"
+                Content="Button"
+                Canvas.Left="399"
+                Canvas.Top="311"
+                Click="buttonAddNumbers_Click" />
+        <!--button
+        textbox
+        label
+        message box-->
+
+    </Canvas>
+
+</Window>
