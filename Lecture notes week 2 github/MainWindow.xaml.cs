@@ -33,8 +33,6 @@ namespace Lecture_notes_week_2_github
             //MessageBox.Show(userFirstName);
 
             //btnPopupmessage.Content = "Hello mochi";
-
-            //hello i like food
         }
 
         private void btnPopupmessage_Click(object sender, RoutedEventArgs e)
